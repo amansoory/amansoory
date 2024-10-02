@@ -1,7 +1,8 @@
 ## Hi there 👋
 
 ## About Me
-My Name is Arman, I am a Computer Science Major at UNC Chapel Hill. I am currently a second year and will graduate in spring 2027.
+My Name is Arman, I am a Computer Science Major at UNC Chapel Hill. I am currently a second year and will graduate in spring 2027. Throughout my academic journey, I’ve gained hands-on experience in various programming languages, frameworks, and developer tools. I am particularly interested in backend development, security, and database management.
+
 
 ## Skills
 - **Certifications**: Microsoft Excel, Microsoft PowerPoint
