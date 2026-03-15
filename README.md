@@ -1,40 +1,58 @@
 ## Hi there 👋
 
 ## About Me
-My Name is Arman, I am a Computer Science Major at UNC Chapel Hill. I am currently a second year and will graduate in spring 2027. Throughout my academic journey, I’ve gained hands-on experience in various programming languages, frameworks, and developer tools. I am particularly interested in backend development, security, and database management.
+I'm **Arman Hassan**, a Computer Science student at the **University of North Carolina at Chapel Hill** graduating in **Spring 2027**.
 
+I’m interested in **backend systems, machine learning, and data-driven applications**. My experience includes building full-stack applications, developing ML models, and designing software systems using object-oriented architecture and design patterns.
 
-## Skills
-- **Certifications**: Microsoft Excel, Microsoft PowerPoint
-- **Security Skills**: HTTPS Setup, SSL/TLS Certificates, Secure Server Configuration
-- **Database**: MySQL, MongoDB (NoSQL)
-- **Frameworks**: 
-  - Frontend: Angular, React 
-  - Backend: Flask, Express
+---
 
-### Classes
-- **Data Structures and Algorithms** - We learned how Data Structures work in Computer Science and how data moves around.
-- **Intro to Programming and Data Science** - We learned the basics of Python.
-- **Intro to Scientific Programming** - Python programming with a focus on mathematical computations.
-- **Special Topics in Computer Science** - Various applications in computer science.
+## Technical Skills
 
-### Tools and Programming Languages
-- **Developer Tools**: Docker, VS Code, IntelliJ, Jupyter, Postman, Nodemon, Tableau, OpenSSL
-- **Languages**: Java, Python, JavaScript, HTML, CSS, R, Bash
+### Languages
+Java, Python, JavaScript, C, Erlang, HTML/CSS
 
+### Frameworks & Tools
+Node.js, React, FastAPI, REST APIs, Docker, MongoDB, Git, GitHub
 
+### Data & Machine Learning
+PyTorch, Hugging Face Transformers, scikit-learn, pandas, Streamlit, Tableau, Jupyter
 
-<!--
-**amansoory/amansoory** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Developer Tools
+VS Code, IntelliJ, Postman
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Featured Projects
+
+### Industry Resilience Predictor
+Machine learning project analyzing economic recovery trends across industries using **Python, pandas, scikit-learn, and Streamlit**.
+
+- Processed large time-series datasets covering **90+ industries and 10,000+ data points**
+- Built a **regression model** to estimate industry drawdown and recovery patterns
+- Developed an **interactive dashboard** for comparing industry recovery metrics
+
+### Dungeon Hero (Grid-Based Game Engine)
+Java-based grid system implementing **object-oriented design, MVC architecture, and the Observer pattern**.
+
+- Implemented entity interaction logic, movement validation, and state updates
+- Designed modular classes for player, enemies, obstacles, and objectives
+
+### Arcade-Style Space Battle Game
+**1st Place Hack110 Hackathon**
+
+- Built a Python arcade shooter using **Pygame**
+- Integrated **30+ visual and audio assets**
+- Implemented gameplay systems for player input, enemy updates, and combat mechanics
+
+---
+
+## Interests
+- Backend Engineering
+- Machine Learning & AI
+- Distributed Systems
+- Data Systems
+
+---
+
+📫 Feel free to explore my repositories or connect with me on LinkedIn!
