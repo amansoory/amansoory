@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 ## About Me
-I'm **Arman Hassan**, a Computer Science student at the **University of North Carolina at Chapel Hill** graduating in **Spring 2027**.
+I'm **Arman Hassan**, a Computer Science + Data Science student at the **University of North Carolina at Chapel Hill** graduating in **Spring 2027**.
 
 I’m interested in **backend systems, machine learning, and data-driven applications**. My experience includes building full-stack applications, developing ML models, and designing software systems using object-oriented architecture and design patterns.
 
