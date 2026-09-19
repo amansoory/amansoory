@@ -1,58 +1,62 @@
-## Hi there 👋
+# Arman Hassan
 
-## About Me
-I'm **Arman Hassan**, a Computer Science + Data Science student at the **University of North Carolina at Chapel Hill** graduating in **Spring 2027**.
+**Software engineering · Applied AI · Backend systems**  
+Computer Science at UNC Chapel Hill, with a minor in Data Science. Graduating May 2027.
 
-I’m interested in **backend systems, machine learning, and data-driven applications**. My experience includes building full-stack applications, developing ML models, and designing software systems using object-oriented architecture and design patterns.
+[**Portfolio →**](https://armanhassan.com) · [**LinkedIn →**](https://linkedin.com/in/arman-hassan1)
 
----
+I build software that connects models, data, and usable interfaces. My recent work includes a source-grounded degree planner, a repository security scanner, and a live experiment comparing Jev with specialized 2048 algorithms.
 
-## Technical Skills
+## Selected projects
 
-### Languages
-Java, Python, JavaScript, C, Erlang, HTML/CSS
+### [Jev 2048 ↗](https://jev-2048.vercel.app)
+**[Source](https://github.com/amansoory/JEV2048) · [Methods and results](https://jev-2048.vercel.app/research) · [How I built it](https://armanhassan.com/projects/jev-2048)**
 
-### Frameworks & Tools
-Node.js, React, FastAPI, REST APIs, Docker, MongoDB, Git, GitHub
+Play or compare the same Jev classifier with different inputs against expectimax and a pretrained n-tuple bot. Inspect candidate boards, choice probabilities, timing, and specialist agreement.
 
-### Data & Machine Learning
-PyTorch, Hugging Face Transformers, scikit-learn, pandas, Streamlit, Tableau, Jupyter
+I built the seeded game controller, anonymous-candidate requests, analytics, and evaluation tools. The native C++ model runs on an **Oracle Cloud ARM64 VM**, with an authenticated Python API, Nginx, TLS, and a persistent worker. The frontend runs on **Vercel**. TDL2048+ and the adapted expectimax sources retain their MIT attribution.
 
-### Developer Tools
-VS Code, IntelliJ, Postman
+`TypeScript` `Next.js` `React` `TypeSafe SDK` `C++` `Python` `Oracle Cloud` `Vercel` `Playwright`
 
----
+### [Degree Planner AI ↗](https://unc-degree-rag.vercel.app)
+**[Project details](https://armanhassan.com/projects/degree-planner-ai)**
 
-## Featured Projects
+A UNC degree-planning chatbot grounded in official catalog material. I built the catalog-processing and retrieval flow, program routing, and interface with source citations.
 
-### Industry Resilience Predictor
-Machine learning project analyzing economic recovery trends across industries using **Python, pandas, scikit-learn, and Streamlit**.
+`Next.js` `AWS Bedrock` `Claude` `Titan embeddings` `Amazon S3 Vectors` `Vercel`
 
-- Processed large time-series datasets covering **90+ industries and 10,000+ data points**
-- Built a **regression model** to estimate industry drawdown and recovery patterns
-- Developed an **interactive dashboard** for comparing industry recovery metrics
+### [VibeSafe ↗](https://vibe-safe-pt7v.vercel.app)
+**[Source](https://github.com/amansoory/VibeSafe) · [Project details](https://armanhassan.com/projects/vibesafe)**
 
-### Dungeon Hero (Grid-Based Game Engine)
-Java-based grid system implementing **object-oriented design, MVC architecture, and the Observer pattern**.
+Repository security checks that combine 51 rules across 10 categories, configuration analysis, and Claude review. Findings appear on pull requests; critical issues fail CI.
 
-- Implemented entity interaction logic, movement validation, and state updates
-- Designed modular classes for player, enemies, obstacles, and objectives
+`Python` `FastAPI` `Claude API` `Docker` `GitHub Actions`
 
-### Arcade-Style Space Battle Game
-**1st Place Hack110 Hackathon**
+### [Industry Resilience Predictor ↗](https://industry-resilience-predictor.streamlit.app/)
+**[Project details](https://armanhassan.com/projects/industry-resilience)**
 
-- Built a Python arcade shooter using **Pygame**
-- Integrated **30+ visual and audio assets**
-- Implemented gameplay systems for player input, enemy updates, and combat mechanics
+An interactive regression dashboard comparing COVID-era drawdown and recovery across **90+ industries**. I worked on the time-series data pipeline, model, and dashboard.
 
----
+`Python` `pandas` `scikit-learn` `Streamlit`
 
-## Interests
-- Backend Engineering
-- Machine Learning & AI
-- Distributed Systems
-- Data Systems
+## Experience
 
----
+| Role | What I worked on |
+| :--- | :--- |
+| **Machine Learning Intern · Timing** | Contact-prioritization LLM agent, retrieval over interaction history, PostgreSQL/pgvector, indexing, and Redis caching. |
+| **Software Engineering Intern · Vogro** | Python automation, FastAPI and Node.js service integrations, and React performance improvements. |
+| **Teaching Assistant · Introduction to Programming** | Python labs, debugging support, and office hours for **200+ students**. |
 
-📫 Feel free to explore my repositories or connect with me on LinkedIn!
+[Experience and dates →](https://armanhassan.com/#experience)
+
+## Tools I use
+
+| Area | Tools |
+| :--- | :--- |
+| Languages | Python, TypeScript / JavaScript, Java, C / C++, SQL |
+| Web & APIs | React, Next.js, FastAPI, Node.js, REST APIs, Tailwind CSS |
+| AI & data | TypeSafe Jev, Claude, OpenAI API, RAG, scikit-learn, pandas, pgvector |
+| Infrastructure | AWS Bedrock / S3 Vectors, Oracle Cloud, PostgreSQL, Redis, Docker, Nginx, Linux, Vercel |
+| Verification | Playwright, focused unit tests, deterministic simulations, saved decision traces |
+
+Also built a Java grid-based game using MVC and the Observer pattern, and a Pygame space battle game that won **1st place at Hack110**.
