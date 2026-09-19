@@ -1,62 +1,64 @@
-# Arman Hassan
+<a href="https://armanhassan.com"><picture><source media="(max-width: 600px)" srcset="assets/hero-mobile.svg" /><img src="assets/hero.svg" width="1100" alt="Arman Hassan, Software Engineer. AI Systems, Backend Development, and Applied ML." /></picture></a>
 
-**Software engineering · Applied AI · Backend systems**  
-Computer Science at UNC Chapel Hill, with a minor in Data Science. Graduating May 2027.
+**Computer Science at UNC Chapel Hill · Data Science minor · Graduating May 2027**  
+Software Engineering Intern · Chapel Hill, North Carolina
 
-[**Portfolio →**](https://armanhassan.com) · [**LinkedIn →**](https://linkedin.com/in/arman-hassan1)
+<p>
+<a href="https://armanhassan.com"><img src="assets/button-portfolio.svg" width="155" alt="Portfolio" /></a>
+<a href="https://linkedin.com/in/arman-hassan1"><img src="assets/button-linkedin.svg" width="155" alt="LinkedIn" /></a>
+<a href="https://armanhassan.com/resume.pdf"><img src="assets/button-resume.svg" width="155" alt="Résumé PDF" /></a>
+<a href="mailto:armanmansoorhassan@gmail.com"><img src="assets/button-email.svg" width="155" alt="Email Arman" /></a>
+<a href="https://jev-2048.vercel.app"><img src="assets/button-jev.svg" width="155" alt="Play Jev 2048" /></a>
+</p>
 
-I build software that connects models, data, and usable interfaces. My recent work includes a source-grounded degree planner, a repository security scanner, and a live experiment comparing Jev with specialized 2048 algorithms.
+## About me
 
-## Selected projects
+I build the parts around a model that make it useful: retrieval, APIs, data pipelines, and interfaces. Recently, that has meant serving a pretrained C++ model from an ARM server and building a degree planner that cites the UNC catalog. I like trying new tools, then measuring what they actually do.
 
-### [Jev 2048 ↗](https://jev-2048.vercel.app)
-**[Source](https://github.com/amansoory/JEV2048) · [Methods and results](https://jev-2048.vercel.app/research) · [How I built it](https://armanhassan.com/projects/jev-2048)**
+## Featured work
 
-Play or compare the same Jev classifier with different inputs against expectimax and a pretrained n-tuple bot. Inspect candidate boards, choice probabilities, timing, and specialist agreement.
+<a href="https://jev-2048.vercel.app"><picture><source media="(max-width: 600px)" srcset="assets/project-jev-mobile.svg" /><img src="assets/project-jev.svg" width="960" alt="Jev 2048: compare a classifier with search and learned board values. Next.js, TypeScript, C++, Oracle Cloud." /></picture></a>
 
-I built the seeded game controller, anonymous-candidate requests, analytics, and evaluation tools. The native C++ model runs on an **Oracle Cloud ARM64 VM**, with an authenticated Python API, Nginx, TLS, and a persistent worker. The frontend runs on **Vercel**. TDL2048+ and the adapted expectimax sources retain their MIT attribution.
+I built the seeded game controller, anonymous move comparisons, and decision inspector. A persistent native worker serves the pretrained n-tuple model on Oracle Cloud; the Next.js frontend runs on Vercel. The project keeps timing, probabilities, and saved results open to inspection.
 
-`TypeScript` `Next.js` `React` `TypeSafe SDK` `C++` `Python` `Oracle Cloud` `Vercel` `Playwright`
+[**Play →**](https://jev-2048.vercel.app) · [Case study](https://armanhassan.com/projects/jev-2048) · [Source](https://github.com/amansoory/JEV2048)
 
-### [Degree Planner AI ↗](https://unc-degree-rag.vercel.app)
-**[Project details](https://armanhassan.com/projects/degree-planner-ai)**
+<a href="https://unc-degree-rag.vercel.app/"><picture><source media="(max-width: 600px)" srcset="assets/project-degree-mobile.svg" /><img src="assets/project-degree.svg" width="960" alt="Degree Planner AI: UNC catalog retrieval with source-linked answers. Next.js, AWS Bedrock, S3 Vectors." /></picture></a>
 
-A UNC degree-planning chatbot grounded in official catalog material. I built the catalog-processing and retrieval flow, program routing, and interface with source citations.
+I built the catalog-processing pipeline, retrieval, and program routing so answers can point back to their sources.
 
-`Next.js` `AWS Bedrock` `Claude` `Titan embeddings` `Amazon S3 Vectors` `Vercel`
+[**Try it →**](https://unc-degree-rag.vercel.app/) · [Case study](https://armanhassan.com/projects/degree-planner-ai)
 
-### [VibeSafe ↗](https://vibe-safe-pt7v.vercel.app)
-**[Source](https://github.com/amansoory/VibeSafe) · [Project details](https://armanhassan.com/projects/vibesafe)**
+<a href="https://vibe-safe-pt7v.vercel.app"><picture><source media="(max-width: 600px)" srcset="assets/project-vibesafe-mobile.svg" /><img src="assets/project-vibesafe.svg" width="960" alt="VibeSafe: repository security checks with pull-request findings. Python, FastAPI, Claude, GitHub Actions." /></picture></a>
 
-Repository security checks that combine 51 rules across 10 categories, configuration analysis, and Claude review. Findings appear on pull requests; critical issues fail CI.
+Combines rule-based checks, configuration analysis, and model review. Findings appear on pull requests, with critical issues failing CI.
 
-`Python` `FastAPI` `Claude API` `Docker` `GitHub Actions`
-
-### [Industry Resilience Predictor ↗](https://industry-resilience-predictor.streamlit.app/)
-**[Project details](https://armanhassan.com/projects/industry-resilience)**
-
-An interactive regression dashboard comparing COVID-era drawdown and recovery across **90+ industries**. I worked on the time-series data pipeline, model, and dashboard.
-
-`Python` `pandas` `scikit-learn` `Streamlit`
+[**Open project →**](https://vibe-safe-pt7v.vercel.app) · [Case study](https://armanhassan.com/projects/vibesafe) · [Source](https://github.com/amansoory/VibeSafe)
 
 ## Experience
 
-| Role | What I worked on |
-| :--- | :--- |
-| **Machine Learning Intern · Timing** | Contact-prioritization LLM agent, retrieval over interaction history, PostgreSQL/pgvector, indexing, and Redis caching. |
-| **Software Engineering Intern · Vogro** | Python automation, FastAPI and Node.js service integrations, and React performance improvements. |
-| **Teaching Assistant · Introduction to Programming** | Python labs, debugging support, and office hours for **200+ students**. |
+- **Software Engineering Intern · Timing**  
+  Worked on contact-prioritization agents, retrieval over interaction history, and backend performance.
+- **Teaching Assistant · UNC Chapel Hill**  
+  Led Python labs and helped students debug in office hours for a course with 200+ students.
+- **XMAX Auto Parts**
 
-[Experience and dates →](https://armanhassan.com/#experience)
+[More about my work →](https://armanhassan.com/#experience)
 
-## Tools I use
+## Tools I work with
 
-| Area | Tools |
-| :--- | :--- |
-| Languages | Python, TypeScript / JavaScript, Java, C / C++, SQL |
-| Web & APIs | React, Next.js, FastAPI, Node.js, REST APIs, Tailwind CSS |
-| AI & data | TypeSafe Jev, Claude, OpenAI API, RAG, scikit-learn, pandas, pgvector |
-| Infrastructure | AWS Bedrock / S3 Vectors, Oracle Cloud, PostgreSQL, Redis, Docker, Nginx, Linux, Vercel |
-| Verification | Playwright, focused unit tests, deterministic simulations, saved decision traces |
+<p>
+<img src="assets/tech-languages.svg" width="420" alt="Languages: Python, TypeScript, C++, SQL" />
+<img src="assets/tech-backend.svg" width="420" alt="Backend and APIs: FastAPI, Node.js, REST" />
+<img src="assets/tech-infra.svg" width="420" alt="Databases and infrastructure: PostgreSQL, Docker, AWS, Oracle Cloud" />
+<img src="assets/tech-ai.svg" width="420" alt="AI and data: Jev, AWS Bedrock, scikit-learn, pandas" />
+<img src="assets/tech-frontend.svg" width="420" alt="Frontend and mobile: React, Next.js, React Native, Expo" />
+</p>
 
-Also built a Java grid-based game using MVC and the Observer pattern, and a Pygame space battle game that won **1st place at Hack110**.
+## Currently building
+
+I’m exploring fast classification and decision layers for larger AI systems: code produces valid options, a model judges them, and code checks the choice before acting. Jev 2048 is where I’m testing how much the information supplied changes those decisions.
+
+## Get in touch
+
+Want to talk about a project or an engineering role? [Email me](mailto:armanmansoorhassan@gmail.com) or [connect on LinkedIn](https://linkedin.com/in/arman-hassan1).
