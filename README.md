@@ -6,7 +6,6 @@ Software Engineering Intern · Chapel Hill, North Carolina
 <p>
 <a href="https://armanhassan.com"><img src="assets/button-portfolio.svg" width="155" alt="Portfolio" /></a>
 <a href="https://linkedin.com/in/arman-hassan1"><img src="assets/button-linkedin.svg" width="155" alt="LinkedIn" /></a>
-<a href="https://armanhassan.com/resume.pdf"><img src="assets/button-resume.svg" width="155" alt="Résumé PDF" /></a>
 <a href="mailto:armanmansoorhassan@gmail.com"><img src="assets/button-email.svg" width="155" alt="Email Arman" /></a>
 <a href="https://jev-2048.vercel.app"><img src="assets/button-jev.svg" width="155" alt="Play Jev 2048" /></a>
 </p>
